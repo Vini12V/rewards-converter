@@ -1,0 +1,22 @@
+public class Reward
+{
+private double cash value;
+private int miles;
+
+public reward (double cash value) 
+this.cash value=cashvalue;
+this. miles=0;
+}
+public Reward (int miles) 
+{
+this. miles=miles;
+this. cashvalue=0.0;
+}
+public double getcashvalue() 
+{
+return cashvalue;
+}
+public int getmiles() 
+{
+return miles;
+}
